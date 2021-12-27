@@ -5632,7 +5632,12 @@
   "resolved" "https://registry.npmmirror.com/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2 || ^3.2.13", "vue@^3.0.0", "vue@^3.2.13", "vue@3.2.26":
+"vue-writer@^1.1.2":
+  "integrity" "sha512-bRskgY0W2YV1n3/ctPymntY4N2WQ88+Ckdq7s694NW42ItNWZ1Sod3Gjo7jr7xCh27hU5F8eLWqij/fUfvmQag=="
+  "resolved" "https://registry.npmjs.org/vue-writer/-/vue-writer-1.1.2.tgz"
+  "version" "1.1.2"
+
+"vue@^2 || ^3.2.13", "vue@^3.0.0", "vue@^3.0.5", "vue@^3.2.13", "vue@3.2.26":
   "integrity" "sha512-KD4lULmskL5cCsEkfhERVRIOEDrfEL9CwAsLYpzptOGjaGFNWo3BQ9g8MAb7RaIO71rmVOziZ/uEN/rHwcUIhg=="
   "resolved" "https://registry.npmmirror.com/vue/download/vue-3.2.26.tgz"
   "version" "3.2.26"
