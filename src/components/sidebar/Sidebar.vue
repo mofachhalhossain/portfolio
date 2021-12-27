@@ -12,6 +12,7 @@ export default {
 </script>
 
 <template>
+
   <div class="sidebar" :style="{ width: sidebarWidth }">
     <!-- <h1>
       <span v-if="collapsed">
@@ -40,8 +41,8 @@ export default {
 <style>
 :root {
   --sidebar-bg-color: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
-  --sidebar-item-hover: #38a169;
-  --sidebar-item-active: #276749;
+  --sidebar-item-hover: #707259;
+  --sidebar-item-active: #393a39;
 }
 </style>
 

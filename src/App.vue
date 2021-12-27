@@ -1,14 +1,16 @@
 <script>
 import Sidebar from '@/components/sidebar/Sidebar'
 import { sidebarWidth } from '@/components/sidebar/state'
+import { ParticlesBg } from "particles-bg-vue";
 export default {
-  components: { Sidebar },
+  components: { Sidebar,ParticlesBg },
   setup() {
     return { sidebarWidth }
   }
 }
 </script>
 <template>
+<particles-bg color="#FFFFFF" num=20 type="cobweb" :bg="true" />
   <Sidebar />
   <div :style="{ 'margin-left': sidebarWidth }">
     <router-view />
@@ -25,7 +27,7 @@ export default {
 }
 
 body{
-  background-color: peru;
+  background-color: rgb(24, 24, 24);
 }
 
 #nav {
