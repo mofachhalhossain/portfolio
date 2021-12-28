@@ -16,6 +16,16 @@ const routes = [
     path: '/skills',
     name: 'Skills',
     component: () => import('../views/SkillsView.vue')
+  },
+  {
+    path: '/learning',
+    name: 'Learning',
+    component: () => import('../views/LearningView.vue')
+  },
+  {
+    path: '/catch_me',
+    name: 'CatchMe',
+    component: () => import('../views/CatchmeView.vue')
   }
 ]
 
