@@ -16,10 +16,10 @@ export default {
   <div class="sidebar" :style="{ width: sidebarWidth }">
 
     <SidebarLink to="/" icon="fas fa-home">Main</SidebarLink>
-    <SidebarLink to="/dashboard" icon="fas fa-database">Projects</SidebarLink>
-    <SidebarLink to="/analytics" icon="fas fa-feather-alt">Skills</SidebarLink>
-    <SidebarLink to="/friends" icon="fas fa-edit">Learning</SidebarLink>
-    <SidebarLink to="/image" icon="fas fa-image">Not Familier</SidebarLink>
+    <SidebarLink to="/projects" icon="fas fa-database">Projects</SidebarLink>
+    <SidebarLink to="/skills" icon="fas fa-feather-alt">Skills</SidebarLink>
+    <SidebarLink to="/learning" icon="fas fa-edit">Learning</SidebarLink>
+    <SidebarLink to="/catch_me" icon="far fa-hand-point-right">Catch Me</SidebarLink>
 
     <span
       class="collapse-icon"
