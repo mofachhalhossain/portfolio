@@ -1,6 +1,8 @@
 <template>
   <div class="about">
-    <h1>This is Skills page</h1>
+    <div class="languages">
+      Languages
+    </div>
   </div>
 </template>
 
@@ -9,3 +11,13 @@ export default{
   
 }
 </script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.languages{
+  font-family: 'Libre Baskerville', serif;
+  color: #ffff;
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+</style>
