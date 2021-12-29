@@ -4,7 +4,7 @@
 </div>
 <div class="lower_chunck">
   <label class="name">{{ name }}</label><br><br>
-  <label class="info">Learning & Working On Software Technologies</label>
+  <label class="info">Learning & Working On Full Stack Technologies</label>
 </div>
 </template>
 
@@ -41,18 +41,30 @@ export default {
   text-shadow:
     0 0 2px #fff,
     0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #0ff,
+    0 0 8px #fff,
+    0 0 15px #0ff,
+    0 0 25px #0ff,
     0 0 30px #0ff,
     0 0 40px #0ff,
-    0 0 50px #0ff,
-    0 0 60px #0ff;
+    0 0 50px #0ff;
 }
 
 @media screen and (max-width: 768px) {
   .upper_chunck{
     font-size: 40px;
-    margin-top: 60%;
+    margin-top:13rem;
+    margin-left: -1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .upper_chunck{
+    margin-top:11rem;
+    margin-left: -1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .upper_chunck{
+    margin-top:9rem;
     margin-left: -1rem;
   }
 }
