@@ -67,5 +67,8 @@ export default {
     margin-top:9rem;
     margin-left: -1rem;
   }
+  .name{
+    font-size: 42px;
+  }
 }
 </style>

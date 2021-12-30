@@ -87,7 +87,8 @@ export default {
     flex-direction: column;
     transition: .6s ease;
     margin-top: 9rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
+    height: 18rem;
   }
 
   .sidebar h1 {
@@ -98,9 +99,7 @@ export default {
     position: absolute;
     bottom: 0;
     padding: 0.75em;
-
     color: rgba(255, 255, 255, 0.7);
-
     transition: 0.2s linear;
   }
 
