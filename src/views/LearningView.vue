@@ -6,7 +6,6 @@
     <div class="description">
         <ul>
             <li><span>.</span>Advanced javascript</li>
-            <li><span>.</span>EcmaScript</li>
             <li><span>.</span>Node Js</li>
             and more...
         </ul>

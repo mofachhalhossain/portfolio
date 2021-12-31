@@ -36,7 +36,7 @@
     font-size: 8rem;
 }
 .catch a:hover{
-    color: rgb(219, 15, 15);
+    color: rgb(233, 15, 15);
     text-decoration: none;
 }
 @media screen and (max-width: 940px) {

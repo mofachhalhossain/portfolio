@@ -28,7 +28,7 @@ export default {
   margin-top: 17%;
 }
 .name{
-  color: red;
+  color: rgb(233, 15, 15);
   font-family: 'Lobster', cursive;
   font-size: 56px;
 }
