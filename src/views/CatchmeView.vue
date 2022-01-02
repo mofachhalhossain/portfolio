@@ -41,7 +41,7 @@
 }
 @media screen and (max-width: 940px) {
     .catch {
-        margin-top: 20rem;
+        margin-top: 16rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2rem;
@@ -52,7 +52,7 @@
 }
 @media screen and (max-width: 556px) {
     .catch {
-        margin-top: 18rem;
+        margin-top: 12rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2rem;
