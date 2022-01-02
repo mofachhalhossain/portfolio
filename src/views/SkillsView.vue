@@ -11,6 +11,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="HTML"
+          footerBack=""
+          back="Most of the HTML5 topics"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -20,6 +24,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="CSS"
+          footerBack=""
+          back="Css3 components, basics of Css animation and more"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -29,6 +37,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Javascript"
+          footerBack=""
+          back="DOM manipulation, event handling, Async/Await, Promises, AJAX, JSON etc."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -38,6 +50,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Tailwind-CSS"
+          footerBack=""
+          back="Tailwind components, utilities, responsive design etc."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -47,6 +63,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Vue"
+          footerBack=""
+          back="Vue components, directives, routing, vuex."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -56,6 +76,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Java"
+          footerBack=""
+          back="Java basics, OOP, collections, generics etc."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -65,6 +89,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Hibernate"
+          footerBack=""
+          back="Hibernate basics, annotations, JPA, Hibernate ORM."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -74,6 +102,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Spring Framework"
+          footerBack=""
+          back="Spring MVC, spring jdbc, spring security, Rest Api."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
     </div>
@@ -88,6 +120,9 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="MySQL"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -97,6 +132,9 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="PostgreSQL"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
     </div>
@@ -112,6 +150,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Git"
+          footerBack=""
+          back="All git topics"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -121,6 +163,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Github"
+          footerBack=""
+          back="All github topics"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <vue-flashcard 
@@ -130,6 +176,9 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Postman"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
       <div class="or">
@@ -142,6 +191,9 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Thunderclient"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
 
