@@ -1,12 +1,10 @@
 <template>
   <div class="home">
-    
     <MainView />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import MainView from '@/components/MainView.vue'
 
 export default {
@@ -17,6 +15,5 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
 </style>

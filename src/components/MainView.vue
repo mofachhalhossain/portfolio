@@ -1,11 +1,11 @@
 <template>
-<div class="upper_chunck">
-  <VueWriter :array="arr" :start="1000" :typeSpeed="70" :eraseSpeed="80" :delay="1000"/>
-</div>
-<div class="lower_chunck">
-  <label class="name">{{ name }}</label><br><br>
-  <label class="info">Learning & Working On Full Stack Technologies</label>
-</div>
+  <div class="upper_chunck">
+    <VueWriter :array="arr" :start="1000" :typeSpeed="70" :eraseSpeed="80" :delay="1000"/>
+  </div>
+  <div class="lower_chunck">
+    <label class="name">{{ name }}</label><br><br>
+    <label class="info">Learning & Working On Full Stack Technologies</label>
+  </div>
 </template>
 
 <script>
@@ -27,11 +27,13 @@ export default {
   color: #ffff;
   margin-top: 17%;
 }
+
 .name{
-  color: red;
+  color: rgb(233, 15, 15);
   font-family: 'Lobster', cursive;
   font-size: 56px;
 }
+
 .info{
   /* color: #ffff; */
   font-family:'Roboto Mono', monospace;
@@ -56,12 +58,14 @@ export default {
     margin-left: -1rem;
   }
 }
+
 @media screen and (max-width: 576px) {
   .upper_chunck{
     margin-top:11rem;
     margin-left: -1rem;
   }
 }
+
 @media screen and (max-width: 480px) {
   .upper_chunck{
     margin-top:9rem;

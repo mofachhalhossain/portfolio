@@ -11,8 +11,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="HTML"
+          footerBack=""
+          back="Most of the HTML5 topics"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/css3.png"
@@ -20,8 +25,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="CSS"
+          footerBack=""
+          back="Css3 components, basics of Css animation and more"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/javascript--v1.png"
@@ -29,8 +39,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Javascript"
+          footerBack=""
+          back="DOM manipulation, event handling, Async/Await, Promises, AJAX, JSON etc."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
@@ -38,8 +53,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Tailwind-CSS"
+          footerBack=""
+          back="Tailwind components, utilities, responsive design etc."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://vuejs.org/images/logo.png"
@@ -47,8 +67,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Vue"
+          footerBack=""
+          back="Vue components, directives, routing, vuex."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/java-coffee-cup-logo.png"
@@ -56,8 +81,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Java"
+          footerBack=""
+          back="Java basics, OOP, collections, generics etc."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://hibernate.org/images/hibernate-logo.svg"
@@ -65,8 +95,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Hibernate"
+          footerBack=""
+          back="Hibernate basics, annotations, JPA, Hibernate ORM."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/spring-logo.png"
@@ -74,6 +109,10 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Spring Framework"
+          footerBack=""
+          back="Spring MVC, spring jdbc, spring security, Rest Api."
+          textSizeBack="1rem"
           >
       </vue-flashcard>
     </div>
@@ -88,8 +127,12 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="MySQL"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/postgreesql.png"
@@ -97,6 +140,9 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="PostgreSQL"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
     </div>
@@ -112,8 +158,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Git"
+          footerBack=""
+          back="All git topics"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/github.png"
@@ -121,8 +172,13 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Github"
+          footerBack=""
+          back="All github topics"
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
@@ -130,8 +186,12 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Postman"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <div class="or">
         /
       </div>
@@ -142,9 +202,11 @@
           footerFront=""
           textSizeFront="0rem"
           colorFront=""
+          headerBack="Thunderclient"
+          footerBack=""
+          textSizeBack="1rem"
           >
       </vue-flashcard>
-
     </div>
   </div>
 </template>
@@ -188,6 +250,5 @@ export default{
   .or{
     font-size: 7rem;
   }
-  
 }
 </style>

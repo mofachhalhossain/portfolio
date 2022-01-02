@@ -6,11 +6,11 @@
     <div class="description">
         <ul>
             <li><span>.</span>Advanced javascript</li>
-            <li><span>.</span>EcmaScript</li>
             <li><span>.</span>Node Js</li>
             and more...
         </ul>
     </div>
+    
     <div class="title_other">
         <label>Spring:</label>
     </div>
@@ -53,7 +53,6 @@
 </template>
 
 <script>
-
 </script>
 
 <style scoped>
@@ -61,6 +60,7 @@
 .learning{
     margin-left: 2rem;
 }
+
 .title_first{
     font-family: 'Lobster', cursive;
     font-size: 3rem;
@@ -70,6 +70,7 @@
     display: flex;
     justify-content: flex-start;
 }
+
 .title_other{
     font-family: 'Lobster', cursive;
     font-size: 3rem;
@@ -79,15 +80,18 @@
     display: flex;
     justify-content: flex-start;
 }
+
 .description{
     display: flex;
     justify-content: flex-start;
     color: #ffff;
     margin-left: 26rem;
 }
+
 .description ul{
     margin-left: 0;
 }
+
 .description li{
     margin-left: 0;
     margin-top: 0;
@@ -96,6 +100,7 @@
     justify-content: flex-start;
     list-style-type: square;
 }
+
 .description span{
     margin-right: 1rem;
 }
@@ -109,7 +114,6 @@
     display: flex;
     justify-content: flex-start;
     }
-    
 }
 
 @media screen and (max-width: 790px) {
@@ -146,6 +150,7 @@
         font-size: 1rem;
     }
 }
+
 @media screen and (max-width: 592px) {
     .learning{
         margin-left: 7rem;
@@ -213,6 +218,5 @@
     .description li{
         font-size: 1rem;
     }
-    
 }
 </style>
