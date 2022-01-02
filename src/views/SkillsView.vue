@@ -17,6 +17,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/css3.png"
@@ -30,6 +31,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/javascript--v1.png"
@@ -43,6 +45,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
@@ -56,6 +59,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://vuejs.org/images/logo.png"
@@ -69,6 +73,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/java-coffee-cup-logo.png"
@@ -82,6 +87,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://hibernate.org/images/hibernate-logo.svg"
@@ -95,6 +101,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/spring-logo.png"
@@ -125,6 +132,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/postgreesql.png"
@@ -156,6 +164,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://img.icons8.com/color/480/000000/github.png"
@@ -169,6 +178,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <vue-flashcard 
       headerFront=""
           imgFront="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
@@ -181,6 +191,7 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
+
       <div class="or">
         /
       </div>
@@ -196,7 +207,6 @@
           textSizeBack="1rem"
           >
       </vue-flashcard>
-
     </div>
   </div>
 </template>
@@ -240,6 +250,5 @@ export default{
   .or{
     font-size: 7rem;
   }
-  
 }
 </style>

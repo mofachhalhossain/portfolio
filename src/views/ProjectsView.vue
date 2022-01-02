@@ -100,24 +100,7 @@ export default{
   margin-top: 2rem;
   justify-content: center;
 }
-@media screen and (max-width: 373px) {
-  .title{
-    font-size: 1.5rem;
-  }
-  .projects{
-    margin-left: 0;
-  }
-  .card{
-    width: 100px;
-    height: 150px;
-    border-radius: 0;
-    padding: 0;
-  }
-  .background{
-    padding: 0;
-    border-radius: 0;
-  }
-}
+
 .projects{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
@@ -219,6 +202,24 @@ export default{
 .flipInX {
     backface-visibility: visible !important;
     animation-name: flipInX;
+}
+@media screen and (max-width: 373px) {
+  .title{
+    font-size: 1.5rem;
+  }
+  .projects{
+    margin-left: 0;
+  }
+  .card{
+    width: 100px;
+    height: 150px;
+    border-radius: 0;
+    padding: 0;
+  }
+  .background{
+    padding: 0;
+    border-radius: 0;
+  }
 }
 
 </style>

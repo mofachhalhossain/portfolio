@@ -12,9 +12,7 @@ export default {
 </script>
 
 <template>
-
   <div class="sidebar" :style="{ width: sidebarWidth }">
-
     <SidebarLink to="/" icon="fas fa-home">Main</SidebarLink>
     <SidebarLink to="/projects" icon="fas fa-database">Projects</SidebarLink>
     <SidebarLink to="/skills" icon="fas fa-feather-alt">Skills</SidebarLink>
@@ -28,6 +26,7 @@ export default {
     >
       <i class="fas fa-angle-double-left" />
     </span>
+
   </div>
 </template>
 
@@ -108,5 +107,4 @@ export default {
     transition: 0.2s linear;
   }
 }
-  
 </style>
