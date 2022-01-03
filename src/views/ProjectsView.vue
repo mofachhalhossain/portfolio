@@ -94,7 +94,7 @@ export default{
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 .title{
   color: #ffff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 2rem;
